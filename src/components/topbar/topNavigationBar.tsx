@@ -1,7 +1,14 @@
-import AppMenu from "./appMenu";
+import Container from '../common/container'
+import AppMenu from './appMenu'
 
 const TopNavigationBar = () => {
-  return <AppMenu />;
-};
+  return (
+    <div className="bg-[#fafafa] pb-5">
+      <Container>
+        <AppMenu />
+      </Container>
+    </div>
+  )
+}
 
-export default TopNavigationBar;
+export default TopNavigationBar

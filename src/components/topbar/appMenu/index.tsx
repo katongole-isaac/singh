@@ -1,5 +1,13 @@
-const AppMenu = () => {
-  return <></>;
-};
+import AppBarNav from './appbarNav'
+import TopBanner from './topbanner'
 
-export default AppMenu;
+const AppMenu = () => {
+  return (
+    <>
+      <TopBanner />
+      <AppBarNav />
+    </>
+  )
+}
+
+export default AppMenu
